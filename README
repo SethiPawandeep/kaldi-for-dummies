@@ -1,0 +1,17 @@
+This data has been taken from https://github.com/Jakobovski/free-spoken-digit-dataset/tree/master/recordings
+
+The data was brought to the required format by using the script script.sh
+
+IFS='_'
+
+for f in *.wav; do
+    name=`echo "$f"`
+
+    IFS='_' read -r -a array <<< "$name"  # To split string and store in array.
+    IFS='.' read -r -a arr <<< "${array[2]}"
+
+    if [[ ${arr[0]} -lt 5 ]]; then
+    	mkdir -p "${array[1]}_${arr[0]}"
+    	cp "${array[0]}_${array[1]}_${array[2]}" "${array[1]}_${arr[0]}/${array[0]}.wav"
+    fi
+done
