@@ -19,8 +19,8 @@ echo
 # utt2spk     [<uterranceID> <speakerID>]
 # corpus.txt  [<text_transcription>]
 # Making spk2utt files
-utils/utt2spk_to_spk2utt.pl data/train/utt2spk > data/train/spk2utt
-utils/utt2spk_to_spk2utt.pl data/test/utt2spk > data/test/spk2utt
+utils/utt2spk_to_spk2utt.pl digits_audio/train/utt2spk > data/train/spk2utt
+utils/utt2spk_to_spk2utt.pl digits_audio/test/utt2spk > data/test/spk2utt
 echo
 echo "===== FEATURES EXTRACTION ====="
 echo
@@ -29,8 +29,8 @@ mfccdir=mfcc
 # Uncomment and modify arguments in scripts below if you have any problems with data sorting
 # utils/validate_data_dir.sh data/train     # script for checking prepared data - here: for data/train directory
 # utils/fix_data_dir.sh data/train          # tool for data proper sorting if needed - here: for data/train directory
-steps/make_mfcc.sh --nj $nj --cmd "$train_cmd" data/train exp/make_mfcc/train $mfccdir
-steps/make_mfcc.sh --nj $nj --cmd "$train_cmd" data/test exp/make_mfcc/test $mfccdir
+steps/make_mfcc.sh --nj $nj --cmd "$train_cmd" digits_audio/train exp/make_mfcc/train $mfccdir
+steps/make_mfcc.sh --nj $nj --cmd "$train_cmd" digits_audio/test exp/make_mfcc/test $mfccdir
 # Making cmvn.scp files
 steps/compute_cmvn_stats.sh data/train exp/make_mfcc/train $mfccdir
 steps/compute_cmvn_stats.sh data/test exp/make_mfcc/test $mfccdir

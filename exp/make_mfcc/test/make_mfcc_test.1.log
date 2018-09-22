@@ -1,0 +1,849 @@
+# compute-mfcc-feats --verbose=2 --config=conf/mfcc.conf scp,p:exp/make_mfcc/test/wav_test.1.scp ark:- | copy-feats --compress=true ark:- ark,scp:/home/pd/Minor/kaldi/egs/digits/mfcc/raw_mfcc_test.1.ark,/home/pd/Minor/kaldi/egs/digits/mfcc/raw_mfcc_test.1.scp 
+# Started at Sun Sep 23 01:39:08 IST 2018
+#
+copy-feats --compress=true ark:- ark,scp:/home/pd/Minor/kaldi/egs/digits/mfcc/raw_mfcc_test.1.ark,/home/pd/Minor/kaldi/egs/digits/mfcc/raw_mfcc_test.1.scp 
+compute-mfcc-feats --verbose=2 --config=conf/mfcc.conf scp,p:exp/make_mfcc/test/wav_test.1.scp ark:- 
+ERROR (compute-mfcc-feats[5.4.260~1-b127]:ComputeFeatures():feat/feature-common-inl.h:52) The waveform is allowed to get downsampled.New sample Frequency 16000 is larger than waveform original sampling frequency 8000
+
+[ Stack-Trace: ]
+
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::OfflineFeatureTpl<kaldi::MfccComputer>::ComputeFeatures(kaldi::VectorBase<float> const&, float, float, kaldi::Matrix<float>*)
+main
+__libc_start_main
+_start
+
+WARNING (compute-mfcc-feats[5.4.260~1-b127]:main():compute-mfcc-feats.cc:144) Failed to compute features for utterance jackson_3_0
+ERROR (compute-mfcc-feats[5.4.260~1-b127]:ComputeFeatures():feat/feature-common-inl.h:52) The waveform is allowed to get downsampled.New sample Frequency 16000 is larger than waveform original sampling frequency 8000
+
+[ Stack-Trace: ]
+
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::OfflineFeatureTpl<kaldi::MfccComputer>::ComputeFeatures(kaldi::VectorBase<float> const&, float, float, kaldi::Matrix<float>*)
+main
+__libc_start_main
+_start
+
+WARNING (compute-mfcc-feats[5.4.260~1-b127]:main():compute-mfcc-feats.cc:144) Failed to compute features for utterance jackson_3_1
+ERROR (compute-mfcc-feats[5.4.260~1-b127]:ComputeFeatures():feat/feature-common-inl.h:52) The waveform is allowed to get downsampled.New sample Frequency 16000 is larger than waveform original sampling frequency 8000
+
+[ Stack-Trace: ]
+
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::OfflineFeatureTpl<kaldi::MfccComputer>::ComputeFeatures(kaldi::VectorBase<float> const&, float, float, kaldi::Matrix<float>*)
+main
+__libc_start_main
+_start
+
+WARNING (compute-mfcc-feats[5.4.260~1-b127]:main():compute-mfcc-feats.cc:144) Failed to compute features for utterance jackson_3_2
+ERROR (compute-mfcc-feats[5.4.260~1-b127]:ComputeFeatures():feat/feature-common-inl.h:52) The waveform is allowed to get downsampled.New sample Frequency 16000 is larger than waveform original sampling frequency 8000
+
+[ Stack-Trace: ]
+
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::OfflineFeatureTpl<kaldi::MfccComputer>::ComputeFeatures(kaldi::VectorBase<float> const&, float, float, kaldi::Matrix<float>*)
+main
+__libc_start_main
+_start
+
+WARNING (compute-mfcc-feats[5.4.260~1-b127]:main():compute-mfcc-feats.cc:144) Failed to compute features for utterance jackson_3_3
+ERROR (compute-mfcc-feats[5.4.260~1-b127]:ComputeFeatures():feat/feature-common-inl.h:52) The waveform is allowed to get downsampled.New sample Frequency 16000 is larger than waveform original sampling frequency 8000
+
+[ Stack-Trace: ]
+
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::OfflineFeatureTpl<kaldi::MfccComputer>::ComputeFeatures(kaldi::VectorBase<float> const&, float, float, kaldi::Matrix<float>*)
+main
+__libc_start_main
+_start
+
+WARNING (compute-mfcc-feats[5.4.260~1-b127]:main():compute-mfcc-feats.cc:144) Failed to compute features for utterance jackson_3_4
+ERROR (compute-mfcc-feats[5.4.260~1-b127]:ComputeFeatures():feat/feature-common-inl.h:52) The waveform is allowed to get downsampled.New sample Frequency 16000 is larger than waveform original sampling frequency 8000
+
+[ Stack-Trace: ]
+
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::OfflineFeatureTpl<kaldi::MfccComputer>::ComputeFeatures(kaldi::VectorBase<float> const&, float, float, kaldi::Matrix<float>*)
+main
+__libc_start_main
+_start
+
+WARNING (compute-mfcc-feats[5.4.260~1-b127]:main():compute-mfcc-feats.cc:144) Failed to compute features for utterance jackson_3_5
+ERROR (compute-mfcc-feats[5.4.260~1-b127]:ComputeFeatures():feat/feature-common-inl.h:52) The waveform is allowed to get downsampled.New sample Frequency 16000 is larger than waveform original sampling frequency 8000
+
+[ Stack-Trace: ]
+
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::OfflineFeatureTpl<kaldi::MfccComputer>::ComputeFeatures(kaldi::VectorBase<float> const&, float, float, kaldi::Matrix<float>*)
+main
+__libc_start_main
+_start
+
+WARNING (compute-mfcc-feats[5.4.260~1-b127]:main():compute-mfcc-feats.cc:144) Failed to compute features for utterance jackson_3_6
+ERROR (compute-mfcc-feats[5.4.260~1-b127]:ComputeFeatures():feat/feature-common-inl.h:52) The waveform is allowed to get downsampled.New sample Frequency 16000 is larger than waveform original sampling frequency 8000
+
+[ Stack-Trace: ]
+
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::OfflineFeatureTpl<kaldi::MfccComputer>::ComputeFeatures(kaldi::VectorBase<float> const&, float, float, kaldi::Matrix<float>*)
+main
+__libc_start_main
+_start
+
+WARNING (compute-mfcc-feats[5.4.260~1-b127]:main():compute-mfcc-feats.cc:144) Failed to compute features for utterance jackson_3_7
+ERROR (compute-mfcc-feats[5.4.260~1-b127]:ComputeFeatures():feat/feature-common-inl.h:52) The waveform is allowed to get downsampled.New sample Frequency 16000 is larger than waveform original sampling frequency 8000
+
+[ Stack-Trace: ]
+
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::OfflineFeatureTpl<kaldi::MfccComputer>::ComputeFeatures(kaldi::VectorBase<float> const&, float, float, kaldi::Matrix<float>*)
+main
+__libc_start_main
+_start
+
+WARNING (compute-mfcc-feats[5.4.260~1-b127]:main():compute-mfcc-feats.cc:144) Failed to compute features for utterance jackson_3_8
+ERROR (compute-mfcc-feats[5.4.260~1-b127]:ComputeFeatures():feat/feature-common-inl.h:52) The waveform is allowed to get downsampled.New sample Frequency 16000 is larger than waveform original sampling frequency 8000
+
+[ Stack-Trace: ]
+
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::OfflineFeatureTpl<kaldi::MfccComputer>::ComputeFeatures(kaldi::VectorBase<float> const&, float, float, kaldi::Matrix<float>*)
+main
+__libc_start_main
+_start
+
+WARNING (compute-mfcc-feats[5.4.260~1-b127]:main():compute-mfcc-feats.cc:144) Failed to compute features for utterance jackson_3_9
+ERROR (compute-mfcc-feats[5.4.260~1-b127]:ComputeFeatures():feat/feature-common-inl.h:52) The waveform is allowed to get downsampled.New sample Frequency 16000 is larger than waveform original sampling frequency 8000
+
+[ Stack-Trace: ]
+
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::OfflineFeatureTpl<kaldi::MfccComputer>::ComputeFeatures(kaldi::VectorBase<float> const&, float, float, kaldi::Matrix<float>*)
+main
+__libc_start_main
+_start
+
+WARNING (compute-mfcc-feats[5.4.260~1-b127]:main():compute-mfcc-feats.cc:144) Failed to compute features for utterance jackson_4_0
+ERROR (compute-mfcc-feats[5.4.260~1-b127]:ComputeFeatures():feat/feature-common-inl.h:52) The waveform is allowed to get downsampled.New sample Frequency 16000 is larger than waveform original sampling frequency 8000
+
+[ Stack-Trace: ]
+
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::OfflineFeatureTpl<kaldi::MfccComputer>::ComputeFeatures(kaldi::VectorBase<float> const&, float, float, kaldi::Matrix<float>*)
+main
+__libc_start_main
+_start
+
+WARNING (compute-mfcc-feats[5.4.260~1-b127]:main():compute-mfcc-feats.cc:144) Failed to compute features for utterance jackson_4_1
+ERROR (compute-mfcc-feats[5.4.260~1-b127]:ComputeFeatures():feat/feature-common-inl.h:52) The waveform is allowed to get downsampled.New sample Frequency 16000 is larger than waveform original sampling frequency 8000
+
+[ Stack-Trace: ]
+
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::OfflineFeatureTpl<kaldi::MfccComputer>::ComputeFeatures(kaldi::VectorBase<float> const&, float, float, kaldi::Matrix<float>*)
+main
+__libc_start_main
+_start
+
+WARNING (compute-mfcc-feats[5.4.260~1-b127]:main():compute-mfcc-feats.cc:144) Failed to compute features for utterance jackson_4_2
+ERROR (compute-mfcc-feats[5.4.260~1-b127]:ComputeFeatures():feat/feature-common-inl.h:52) The waveform is allowed to get downsampled.New sample Frequency 16000 is larger than waveform original sampling frequency 8000
+
+[ Stack-Trace: ]
+
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::OfflineFeatureTpl<kaldi::MfccComputer>::ComputeFeatures(kaldi::VectorBase<float> const&, float, float, kaldi::Matrix<float>*)
+main
+__libc_start_main
+_start
+
+WARNING (compute-mfcc-feats[5.4.260~1-b127]:main():compute-mfcc-feats.cc:144) Failed to compute features for utterance jackson_4_3
+ERROR (compute-mfcc-feats[5.4.260~1-b127]:ComputeFeatures():feat/feature-common-inl.h:52) The waveform is allowed to get downsampled.New sample Frequency 16000 is larger than waveform original sampling frequency 8000
+
+[ Stack-Trace: ]
+
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::OfflineFeatureTpl<kaldi::MfccComputer>::ComputeFeatures(kaldi::VectorBase<float> const&, float, float, kaldi::Matrix<float>*)
+main
+__libc_start_main
+_start
+
+WARNING (compute-mfcc-feats[5.4.260~1-b127]:main():compute-mfcc-feats.cc:144) Failed to compute features for utterance jackson_4_4
+ERROR (compute-mfcc-feats[5.4.260~1-b127]:ComputeFeatures():feat/feature-common-inl.h:52) The waveform is allowed to get downsampled.New sample Frequency 16000 is larger than waveform original sampling frequency 8000
+
+[ Stack-Trace: ]
+
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::OfflineFeatureTpl<kaldi::MfccComputer>::ComputeFeatures(kaldi::VectorBase<float> const&, float, float, kaldi::Matrix<float>*)
+main
+__libc_start_main
+_start
+
+WARNING (compute-mfcc-feats[5.4.260~1-b127]:main():compute-mfcc-feats.cc:144) Failed to compute features for utterance jackson_4_5
+ERROR (compute-mfcc-feats[5.4.260~1-b127]:ComputeFeatures():feat/feature-common-inl.h:52) The waveform is allowed to get downsampled.New sample Frequency 16000 is larger than waveform original sampling frequency 8000
+
+[ Stack-Trace: ]
+
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::OfflineFeatureTpl<kaldi::MfccComputer>::ComputeFeatures(kaldi::VectorBase<float> const&, float, float, kaldi::Matrix<float>*)
+main
+__libc_start_main
+_start
+
+WARNING (compute-mfcc-feats[5.4.260~1-b127]:main():compute-mfcc-feats.cc:144) Failed to compute features for utterance jackson_4_6
+ERROR (compute-mfcc-feats[5.4.260~1-b127]:ComputeFeatures():feat/feature-common-inl.h:52) The waveform is allowed to get downsampled.New sample Frequency 16000 is larger than waveform original sampling frequency 8000
+
+[ Stack-Trace: ]
+
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::OfflineFeatureTpl<kaldi::MfccComputer>::ComputeFeatures(kaldi::VectorBase<float> const&, float, float, kaldi::Matrix<float>*)
+main
+__libc_start_main
+_start
+
+WARNING (compute-mfcc-feats[5.4.260~1-b127]:main():compute-mfcc-feats.cc:144) Failed to compute features for utterance jackson_4_7
+ERROR (compute-mfcc-feats[5.4.260~1-b127]:ComputeFeatures():feat/feature-common-inl.h:52) The waveform is allowed to get downsampled.New sample Frequency 16000 is larger than waveform original sampling frequency 8000
+
+[ Stack-Trace: ]
+
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::OfflineFeatureTpl<kaldi::MfccComputer>::ComputeFeatures(kaldi::VectorBase<float> const&, float, float, kaldi::Matrix<float>*)
+main
+__libc_start_main
+_start
+
+WARNING (compute-mfcc-feats[5.4.260~1-b127]:main():compute-mfcc-feats.cc:144) Failed to compute features for utterance jackson_4_8
+ERROR (compute-mfcc-feats[5.4.260~1-b127]:ComputeFeatures():feat/feature-common-inl.h:52) The waveform is allowed to get downsampled.New sample Frequency 16000 is larger than waveform original sampling frequency 8000
+
+[ Stack-Trace: ]
+
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::OfflineFeatureTpl<kaldi::MfccComputer>::ComputeFeatures(kaldi::VectorBase<float> const&, float, float, kaldi::Matrix<float>*)
+main
+__libc_start_main
+_start
+
+WARNING (compute-mfcc-feats[5.4.260~1-b127]:main():compute-mfcc-feats.cc:144) Failed to compute features for utterance jackson_4_9
+ERROR (compute-mfcc-feats[5.4.260~1-b127]:ComputeFeatures():feat/feature-common-inl.h:52) The waveform is allowed to get downsampled.New sample Frequency 16000 is larger than waveform original sampling frequency 8000
+
+[ Stack-Trace: ]
+
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::OfflineFeatureTpl<kaldi::MfccComputer>::ComputeFeatures(kaldi::VectorBase<float> const&, float, float, kaldi::Matrix<float>*)
+main
+__libc_start_main
+_start
+
+WARNING (compute-mfcc-feats[5.4.260~1-b127]:main():compute-mfcc-feats.cc:144) Failed to compute features for utterance nicolas_2_0
+ERROR (compute-mfcc-feats[5.4.260~1-b127]:ComputeFeatures():feat/feature-common-inl.h:52) The waveform is allowed to get downsampled.New sample Frequency 16000 is larger than waveform original sampling frequency 8000
+
+[ Stack-Trace: ]
+
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::OfflineFeatureTpl<kaldi::MfccComputer>::ComputeFeatures(kaldi::VectorBase<float> const&, float, float, kaldi::Matrix<float>*)
+main
+__libc_start_main
+_start
+
+WARNING (compute-mfcc-feats[5.4.260~1-b127]:main():compute-mfcc-feats.cc:144) Failed to compute features for utterance nicolas_2_1
+ERROR (compute-mfcc-feats[5.4.260~1-b127]:ComputeFeatures():feat/feature-common-inl.h:52) The waveform is allowed to get downsampled.New sample Frequency 16000 is larger than waveform original sampling frequency 8000
+
+[ Stack-Trace: ]
+
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::OfflineFeatureTpl<kaldi::MfccComputer>::ComputeFeatures(kaldi::VectorBase<float> const&, float, float, kaldi::Matrix<float>*)
+main
+__libc_start_main
+_start
+
+WARNING (compute-mfcc-feats[5.4.260~1-b127]:main():compute-mfcc-feats.cc:144) Failed to compute features for utterance nicolas_2_2
+ERROR (compute-mfcc-feats[5.4.260~1-b127]:ComputeFeatures():feat/feature-common-inl.h:52) The waveform is allowed to get downsampled.New sample Frequency 16000 is larger than waveform original sampling frequency 8000
+
+[ Stack-Trace: ]
+
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::OfflineFeatureTpl<kaldi::MfccComputer>::ComputeFeatures(kaldi::VectorBase<float> const&, float, float, kaldi::Matrix<float>*)
+main
+__libc_start_main
+_start
+
+WARNING (compute-mfcc-feats[5.4.260~1-b127]:main():compute-mfcc-feats.cc:144) Failed to compute features for utterance nicolas_2_3
+ERROR (compute-mfcc-feats[5.4.260~1-b127]:ComputeFeatures():feat/feature-common-inl.h:52) The waveform is allowed to get downsampled.New sample Frequency 16000 is larger than waveform original sampling frequency 8000
+
+[ Stack-Trace: ]
+
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::OfflineFeatureTpl<kaldi::MfccComputer>::ComputeFeatures(kaldi::VectorBase<float> const&, float, float, kaldi::Matrix<float>*)
+main
+__libc_start_main
+_start
+
+WARNING (compute-mfcc-feats[5.4.260~1-b127]:main():compute-mfcc-feats.cc:144) Failed to compute features for utterance nicolas_2_4
+ERROR (compute-mfcc-feats[5.4.260~1-b127]:ComputeFeatures():feat/feature-common-inl.h:52) The waveform is allowed to get downsampled.New sample Frequency 16000 is larger than waveform original sampling frequency 8000
+
+[ Stack-Trace: ]
+
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::OfflineFeatureTpl<kaldi::MfccComputer>::ComputeFeatures(kaldi::VectorBase<float> const&, float, float, kaldi::Matrix<float>*)
+main
+__libc_start_main
+_start
+
+WARNING (compute-mfcc-feats[5.4.260~1-b127]:main():compute-mfcc-feats.cc:144) Failed to compute features for utterance nicolas_2_5
+ERROR (compute-mfcc-feats[5.4.260~1-b127]:ComputeFeatures():feat/feature-common-inl.h:52) The waveform is allowed to get downsampled.New sample Frequency 16000 is larger than waveform original sampling frequency 8000
+
+[ Stack-Trace: ]
+
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::OfflineFeatureTpl<kaldi::MfccComputer>::ComputeFeatures(kaldi::VectorBase<float> const&, float, float, kaldi::Matrix<float>*)
+main
+__libc_start_main
+_start
+
+WARNING (compute-mfcc-feats[5.4.260~1-b127]:main():compute-mfcc-feats.cc:144) Failed to compute features for utterance nicolas_2_6
+ERROR (compute-mfcc-feats[5.4.260~1-b127]:ComputeFeatures():feat/feature-common-inl.h:52) The waveform is allowed to get downsampled.New sample Frequency 16000 is larger than waveform original sampling frequency 8000
+
+[ Stack-Trace: ]
+
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::OfflineFeatureTpl<kaldi::MfccComputer>::ComputeFeatures(kaldi::VectorBase<float> const&, float, float, kaldi::Matrix<float>*)
+main
+__libc_start_main
+_start
+
+WARNING (compute-mfcc-feats[5.4.260~1-b127]:main():compute-mfcc-feats.cc:144) Failed to compute features for utterance nicolas_2_7
+ERROR (compute-mfcc-feats[5.4.260~1-b127]:ComputeFeatures():feat/feature-common-inl.h:52) The waveform is allowed to get downsampled.New sample Frequency 16000 is larger than waveform original sampling frequency 8000
+
+[ Stack-Trace: ]
+
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::OfflineFeatureTpl<kaldi::MfccComputer>::ComputeFeatures(kaldi::VectorBase<float> const&, float, float, kaldi::Matrix<float>*)
+main
+__libc_start_main
+_start
+
+WARNING (compute-mfcc-feats[5.4.260~1-b127]:main():compute-mfcc-feats.cc:144) Failed to compute features for utterance nicolas_2_8
+ERROR (compute-mfcc-feats[5.4.260~1-b127]:ComputeFeatures():feat/feature-common-inl.h:52) The waveform is allowed to get downsampled.New sample Frequency 16000 is larger than waveform original sampling frequency 8000
+
+[ Stack-Trace: ]
+
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::OfflineFeatureTpl<kaldi::MfccComputer>::ComputeFeatures(kaldi::VectorBase<float> const&, float, float, kaldi::Matrix<float>*)
+main
+__libc_start_main
+_start
+
+WARNING (compute-mfcc-feats[5.4.260~1-b127]:main():compute-mfcc-feats.cc:144) Failed to compute features for utterance nicolas_2_9
+ERROR (compute-mfcc-feats[5.4.260~1-b127]:ComputeFeatures():feat/feature-common-inl.h:52) The waveform is allowed to get downsampled.New sample Frequency 16000 is larger than waveform original sampling frequency 8000
+
+[ Stack-Trace: ]
+
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::OfflineFeatureTpl<kaldi::MfccComputer>::ComputeFeatures(kaldi::VectorBase<float> const&, float, float, kaldi::Matrix<float>*)
+main
+__libc_start_main
+_start
+
+WARNING (compute-mfcc-feats[5.4.260~1-b127]:main():compute-mfcc-feats.cc:144) Failed to compute features for utterance nicolas_3_0
+ERROR (compute-mfcc-feats[5.4.260~1-b127]:ComputeFeatures():feat/feature-common-inl.h:52) The waveform is allowed to get downsampled.New sample Frequency 16000 is larger than waveform original sampling frequency 8000
+
+[ Stack-Trace: ]
+
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::OfflineFeatureTpl<kaldi::MfccComputer>::ComputeFeatures(kaldi::VectorBase<float> const&, float, float, kaldi::Matrix<float>*)
+main
+__libc_start_main
+_start
+
+WARNING (compute-mfcc-feats[5.4.260~1-b127]:main():compute-mfcc-feats.cc:144) Failed to compute features for utterance nicolas_3_1
+ERROR (compute-mfcc-feats[5.4.260~1-b127]:ComputeFeatures():feat/feature-common-inl.h:52) The waveform is allowed to get downsampled.New sample Frequency 16000 is larger than waveform original sampling frequency 8000
+
+[ Stack-Trace: ]
+
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::OfflineFeatureTpl<kaldi::MfccComputer>::ComputeFeatures(kaldi::VectorBase<float> const&, float, float, kaldi::Matrix<float>*)
+main
+__libc_start_main
+_start
+
+WARNING (compute-mfcc-feats[5.4.260~1-b127]:main():compute-mfcc-feats.cc:144) Failed to compute features for utterance nicolas_3_2
+ERROR (compute-mfcc-feats[5.4.260~1-b127]:ComputeFeatures():feat/feature-common-inl.h:52) The waveform is allowed to get downsampled.New sample Frequency 16000 is larger than waveform original sampling frequency 8000
+
+[ Stack-Trace: ]
+
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::OfflineFeatureTpl<kaldi::MfccComputer>::ComputeFeatures(kaldi::VectorBase<float> const&, float, float, kaldi::Matrix<float>*)
+main
+__libc_start_main
+_start
+
+WARNING (compute-mfcc-feats[5.4.260~1-b127]:main():compute-mfcc-feats.cc:144) Failed to compute features for utterance nicolas_3_3
+ERROR (compute-mfcc-feats[5.4.260~1-b127]:ComputeFeatures():feat/feature-common-inl.h:52) The waveform is allowed to get downsampled.New sample Frequency 16000 is larger than waveform original sampling frequency 8000
+
+[ Stack-Trace: ]
+
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::OfflineFeatureTpl<kaldi::MfccComputer>::ComputeFeatures(kaldi::VectorBase<float> const&, float, float, kaldi::Matrix<float>*)
+main
+__libc_start_main
+_start
+
+WARNING (compute-mfcc-feats[5.4.260~1-b127]:main():compute-mfcc-feats.cc:144) Failed to compute features for utterance nicolas_3_4
+ERROR (compute-mfcc-feats[5.4.260~1-b127]:ComputeFeatures():feat/feature-common-inl.h:52) The waveform is allowed to get downsampled.New sample Frequency 16000 is larger than waveform original sampling frequency 8000
+
+[ Stack-Trace: ]
+
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::OfflineFeatureTpl<kaldi::MfccComputer>::ComputeFeatures(kaldi::VectorBase<float> const&, float, float, kaldi::Matrix<float>*)
+main
+__libc_start_main
+_start
+
+WARNING (compute-mfcc-feats[5.4.260~1-b127]:main():compute-mfcc-feats.cc:144) Failed to compute features for utterance nicolas_3_5
+ERROR (compute-mfcc-feats[5.4.260~1-b127]:ComputeFeatures():feat/feature-common-inl.h:52) The waveform is allowed to get downsampled.New sample Frequency 16000 is larger than waveform original sampling frequency 8000
+
+[ Stack-Trace: ]
+
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::OfflineFeatureTpl<kaldi::MfccComputer>::ComputeFeatures(kaldi::VectorBase<float> const&, float, float, kaldi::Matrix<float>*)
+main
+__libc_start_main
+_start
+
+WARNING (compute-mfcc-feats[5.4.260~1-b127]:main():compute-mfcc-feats.cc:144) Failed to compute features for utterance nicolas_3_6
+ERROR (compute-mfcc-feats[5.4.260~1-b127]:ComputeFeatures():feat/feature-common-inl.h:52) The waveform is allowed to get downsampled.New sample Frequency 16000 is larger than waveform original sampling frequency 8000
+
+[ Stack-Trace: ]
+
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::OfflineFeatureTpl<kaldi::MfccComputer>::ComputeFeatures(kaldi::VectorBase<float> const&, float, float, kaldi::Matrix<float>*)
+main
+__libc_start_main
+_start
+
+WARNING (compute-mfcc-feats[5.4.260~1-b127]:main():compute-mfcc-feats.cc:144) Failed to compute features for utterance nicolas_3_7
+ERROR (compute-mfcc-feats[5.4.260~1-b127]:ComputeFeatures():feat/feature-common-inl.h:52) The waveform is allowed to get downsampled.New sample Frequency 16000 is larger than waveform original sampling frequency 8000
+
+[ Stack-Trace: ]
+
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::OfflineFeatureTpl<kaldi::MfccComputer>::ComputeFeatures(kaldi::VectorBase<float> const&, float, float, kaldi::Matrix<float>*)
+main
+__libc_start_main
+_start
+
+WARNING (compute-mfcc-feats[5.4.260~1-b127]:main():compute-mfcc-feats.cc:144) Failed to compute features for utterance nicolas_3_8
+ERROR (compute-mfcc-feats[5.4.260~1-b127]:ComputeFeatures():feat/feature-common-inl.h:52) The waveform is allowed to get downsampled.New sample Frequency 16000 is larger than waveform original sampling frequency 8000
+
+[ Stack-Trace: ]
+
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::OfflineFeatureTpl<kaldi::MfccComputer>::ComputeFeatures(kaldi::VectorBase<float> const&, float, float, kaldi::Matrix<float>*)
+main
+__libc_start_main
+_start
+
+WARNING (compute-mfcc-feats[5.4.260~1-b127]:main():compute-mfcc-feats.cc:144) Failed to compute features for utterance nicolas_3_9
+ERROR (compute-mfcc-feats[5.4.260~1-b127]:ComputeFeatures():feat/feature-common-inl.h:52) The waveform is allowed to get downsampled.New sample Frequency 16000 is larger than waveform original sampling frequency 8000
+
+[ Stack-Trace: ]
+
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::OfflineFeatureTpl<kaldi::MfccComputer>::ComputeFeatures(kaldi::VectorBase<float> const&, float, float, kaldi::Matrix<float>*)
+main
+__libc_start_main
+_start
+
+WARNING (compute-mfcc-feats[5.4.260~1-b127]:main():compute-mfcc-feats.cc:144) Failed to compute features for utterance nicolas_4_0
+ERROR (compute-mfcc-feats[5.4.260~1-b127]:ComputeFeatures():feat/feature-common-inl.h:52) The waveform is allowed to get downsampled.New sample Frequency 16000 is larger than waveform original sampling frequency 8000
+
+[ Stack-Trace: ]
+
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::OfflineFeatureTpl<kaldi::MfccComputer>::ComputeFeatures(kaldi::VectorBase<float> const&, float, float, kaldi::Matrix<float>*)
+main
+__libc_start_main
+_start
+
+WARNING (compute-mfcc-feats[5.4.260~1-b127]:main():compute-mfcc-feats.cc:144) Failed to compute features for utterance nicolas_4_1
+ERROR (compute-mfcc-feats[5.4.260~1-b127]:ComputeFeatures():feat/feature-common-inl.h:52) The waveform is allowed to get downsampled.New sample Frequency 16000 is larger than waveform original sampling frequency 8000
+
+[ Stack-Trace: ]
+
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::OfflineFeatureTpl<kaldi::MfccComputer>::ComputeFeatures(kaldi::VectorBase<float> const&, float, float, kaldi::Matrix<float>*)
+main
+__libc_start_main
+_start
+
+WARNING (compute-mfcc-feats[5.4.260~1-b127]:main():compute-mfcc-feats.cc:144) Failed to compute features for utterance nicolas_4_2
+ERROR (compute-mfcc-feats[5.4.260~1-b127]:ComputeFeatures():feat/feature-common-inl.h:52) The waveform is allowed to get downsampled.New sample Frequency 16000 is larger than waveform original sampling frequency 8000
+
+[ Stack-Trace: ]
+
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::OfflineFeatureTpl<kaldi::MfccComputer>::ComputeFeatures(kaldi::VectorBase<float> const&, float, float, kaldi::Matrix<float>*)
+main
+__libc_start_main
+_start
+
+WARNING (compute-mfcc-feats[5.4.260~1-b127]:main():compute-mfcc-feats.cc:144) Failed to compute features for utterance nicolas_4_3
+ERROR (compute-mfcc-feats[5.4.260~1-b127]:ComputeFeatures():feat/feature-common-inl.h:52) The waveform is allowed to get downsampled.New sample Frequency 16000 is larger than waveform original sampling frequency 8000
+
+[ Stack-Trace: ]
+
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::OfflineFeatureTpl<kaldi::MfccComputer>::ComputeFeatures(kaldi::VectorBase<float> const&, float, float, kaldi::Matrix<float>*)
+main
+__libc_start_main
+_start
+
+WARNING (compute-mfcc-feats[5.4.260~1-b127]:main():compute-mfcc-feats.cc:144) Failed to compute features for utterance nicolas_4_4
+ERROR (compute-mfcc-feats[5.4.260~1-b127]:ComputeFeatures():feat/feature-common-inl.h:52) The waveform is allowed to get downsampled.New sample Frequency 16000 is larger than waveform original sampling frequency 8000
+
+[ Stack-Trace: ]
+
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::OfflineFeatureTpl<kaldi::MfccComputer>::ComputeFeatures(kaldi::VectorBase<float> const&, float, float, kaldi::Matrix<float>*)
+main
+__libc_start_main
+_start
+
+WARNING (compute-mfcc-feats[5.4.260~1-b127]:main():compute-mfcc-feats.cc:144) Failed to compute features for utterance nicolas_4_5
+ERROR (compute-mfcc-feats[5.4.260~1-b127]:ComputeFeatures():feat/feature-common-inl.h:52) The waveform is allowed to get downsampled.New sample Frequency 16000 is larger than waveform original sampling frequency 8000
+
+[ Stack-Trace: ]
+
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::OfflineFeatureTpl<kaldi::MfccComputer>::ComputeFeatures(kaldi::VectorBase<float> const&, float, float, kaldi::Matrix<float>*)
+main
+__libc_start_main
+_start
+
+WARNING (compute-mfcc-feats[5.4.260~1-b127]:main():compute-mfcc-feats.cc:144) Failed to compute features for utterance nicolas_4_6
+ERROR (compute-mfcc-feats[5.4.260~1-b127]:ComputeFeatures():feat/feature-common-inl.h:52) The waveform is allowed to get downsampled.New sample Frequency 16000 is larger than waveform original sampling frequency 8000
+
+[ Stack-Trace: ]
+
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::OfflineFeatureTpl<kaldi::MfccComputer>::ComputeFeatures(kaldi::VectorBase<float> const&, float, float, kaldi::Matrix<float>*)
+main
+__libc_start_main
+_start
+
+WARNING (compute-mfcc-feats[5.4.260~1-b127]:main():compute-mfcc-feats.cc:144) Failed to compute features for utterance nicolas_4_7
+ERROR (compute-mfcc-feats[5.4.260~1-b127]:ComputeFeatures():feat/feature-common-inl.h:52) The waveform is allowed to get downsampled.New sample Frequency 16000 is larger than waveform original sampling frequency 8000
+
+[ Stack-Trace: ]
+
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::OfflineFeatureTpl<kaldi::MfccComputer>::ComputeFeatures(kaldi::VectorBase<float> const&, float, float, kaldi::Matrix<float>*)
+main
+__libc_start_main
+_start
+
+WARNING (compute-mfcc-feats[5.4.260~1-b127]:main():compute-mfcc-feats.cc:144) Failed to compute features for utterance nicolas_4_8
+ERROR (compute-mfcc-feats[5.4.260~1-b127]:ComputeFeatures():feat/feature-common-inl.h:52) The waveform is allowed to get downsampled.New sample Frequency 16000 is larger than waveform original sampling frequency 8000
+
+[ Stack-Trace: ]
+
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::OfflineFeatureTpl<kaldi::MfccComputer>::ComputeFeatures(kaldi::VectorBase<float> const&, float, float, kaldi::Matrix<float>*)
+main
+__libc_start_main
+_start
+
+WARNING (compute-mfcc-feats[5.4.260~1-b127]:main():compute-mfcc-feats.cc:144) Failed to compute features for utterance nicolas_4_9
+ERROR (compute-mfcc-feats[5.4.260~1-b127]:ComputeFeatures():feat/feature-common-inl.h:52) The waveform is allowed to get downsampled.New sample Frequency 16000 is larger than waveform original sampling frequency 8000
+
+[ Stack-Trace: ]
+
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::OfflineFeatureTpl<kaldi::MfccComputer>::ComputeFeatures(kaldi::VectorBase<float> const&, float, float, kaldi::Matrix<float>*)
+main
+__libc_start_main
+_start
+
+WARNING (compute-mfcc-feats[5.4.260~1-b127]:main():compute-mfcc-feats.cc:144) Failed to compute features for utterance theo_1_0
+ERROR (compute-mfcc-feats[5.4.260~1-b127]:ComputeFeatures():feat/feature-common-inl.h:52) The waveform is allowed to get downsampled.New sample Frequency 16000 is larger than waveform original sampling frequency 8000
+
+[ Stack-Trace: ]
+
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::OfflineFeatureTpl<kaldi::MfccComputer>::ComputeFeatures(kaldi::VectorBase<float> const&, float, float, kaldi::Matrix<float>*)
+main
+__libc_start_main
+_start
+
+WARNING (compute-mfcc-feats[5.4.260~1-b127]:main():compute-mfcc-feats.cc:144) Failed to compute features for utterance theo_1_1
+ERROR (compute-mfcc-feats[5.4.260~1-b127]:ComputeFeatures():feat/feature-common-inl.h:52) The waveform is allowed to get downsampled.New sample Frequency 16000 is larger than waveform original sampling frequency 8000
+
+[ Stack-Trace: ]
+
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::OfflineFeatureTpl<kaldi::MfccComputer>::ComputeFeatures(kaldi::VectorBase<float> const&, float, float, kaldi::Matrix<float>*)
+main
+__libc_start_main
+_start
+
+WARNING (compute-mfcc-feats[5.4.260~1-b127]:main():compute-mfcc-feats.cc:144) Failed to compute features for utterance theo_1_2
+ERROR (compute-mfcc-feats[5.4.260~1-b127]:ComputeFeatures():feat/feature-common-inl.h:52) The waveform is allowed to get downsampled.New sample Frequency 16000 is larger than waveform original sampling frequency 8000
+
+[ Stack-Trace: ]
+
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::OfflineFeatureTpl<kaldi::MfccComputer>::ComputeFeatures(kaldi::VectorBase<float> const&, float, float, kaldi::Matrix<float>*)
+main
+__libc_start_main
+_start
+
+WARNING (compute-mfcc-feats[5.4.260~1-b127]:main():compute-mfcc-feats.cc:144) Failed to compute features for utterance theo_1_3
+ERROR (compute-mfcc-feats[5.4.260~1-b127]:ComputeFeatures():feat/feature-common-inl.h:52) The waveform is allowed to get downsampled.New sample Frequency 16000 is larger than waveform original sampling frequency 8000
+
+[ Stack-Trace: ]
+
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::OfflineFeatureTpl<kaldi::MfccComputer>::ComputeFeatures(kaldi::VectorBase<float> const&, float, float, kaldi::Matrix<float>*)
+main
+__libc_start_main
+_start
+
+WARNING (compute-mfcc-feats[5.4.260~1-b127]:main():compute-mfcc-feats.cc:144) Failed to compute features for utterance theo_1_4
+ERROR (compute-mfcc-feats[5.4.260~1-b127]:ComputeFeatures():feat/feature-common-inl.h:52) The waveform is allowed to get downsampled.New sample Frequency 16000 is larger than waveform original sampling frequency 8000
+
+[ Stack-Trace: ]
+
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::OfflineFeatureTpl<kaldi::MfccComputer>::ComputeFeatures(kaldi::VectorBase<float> const&, float, float, kaldi::Matrix<float>*)
+main
+__libc_start_main
+_start
+
+WARNING (compute-mfcc-feats[5.4.260~1-b127]:main():compute-mfcc-feats.cc:144) Failed to compute features for utterance theo_1_5
+ERROR (compute-mfcc-feats[5.4.260~1-b127]:ComputeFeatures():feat/feature-common-inl.h:52) The waveform is allowed to get downsampled.New sample Frequency 16000 is larger than waveform original sampling frequency 8000
+
+[ Stack-Trace: ]
+
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::OfflineFeatureTpl<kaldi::MfccComputer>::ComputeFeatures(kaldi::VectorBase<float> const&, float, float, kaldi::Matrix<float>*)
+main
+__libc_start_main
+_start
+
+WARNING (compute-mfcc-feats[5.4.260~1-b127]:main():compute-mfcc-feats.cc:144) Failed to compute features for utterance theo_1_6
+ERROR (compute-mfcc-feats[5.4.260~1-b127]:ComputeFeatures():feat/feature-common-inl.h:52) The waveform is allowed to get downsampled.New sample Frequency 16000 is larger than waveform original sampling frequency 8000
+
+[ Stack-Trace: ]
+
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::OfflineFeatureTpl<kaldi::MfccComputer>::ComputeFeatures(kaldi::VectorBase<float> const&, float, float, kaldi::Matrix<float>*)
+main
+__libc_start_main
+_start
+
+WARNING (compute-mfcc-feats[5.4.260~1-b127]:main():compute-mfcc-feats.cc:144) Failed to compute features for utterance theo_1_7
+ERROR (compute-mfcc-feats[5.4.260~1-b127]:ComputeFeatures():feat/feature-common-inl.h:52) The waveform is allowed to get downsampled.New sample Frequency 16000 is larger than waveform original sampling frequency 8000
+
+[ Stack-Trace: ]
+
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::OfflineFeatureTpl<kaldi::MfccComputer>::ComputeFeatures(kaldi::VectorBase<float> const&, float, float, kaldi::Matrix<float>*)
+main
+__libc_start_main
+_start
+
+WARNING (compute-mfcc-feats[5.4.260~1-b127]:main():compute-mfcc-feats.cc:144) Failed to compute features for utterance theo_1_8
+ERROR (compute-mfcc-feats[5.4.260~1-b127]:ComputeFeatures():feat/feature-common-inl.h:52) The waveform is allowed to get downsampled.New sample Frequency 16000 is larger than waveform original sampling frequency 8000
+
+[ Stack-Trace: ]
+
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::OfflineFeatureTpl<kaldi::MfccComputer>::ComputeFeatures(kaldi::VectorBase<float> const&, float, float, kaldi::Matrix<float>*)
+main
+__libc_start_main
+_start
+
+WARNING (compute-mfcc-feats[5.4.260~1-b127]:main():compute-mfcc-feats.cc:144) Failed to compute features for utterance theo_1_9
+ERROR (compute-mfcc-feats[5.4.260~1-b127]:ComputeFeatures():feat/feature-common-inl.h:52) The waveform is allowed to get downsampled.New sample Frequency 16000 is larger than waveform original sampling frequency 8000
+
+[ Stack-Trace: ]
+
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::OfflineFeatureTpl<kaldi::MfccComputer>::ComputeFeatures(kaldi::VectorBase<float> const&, float, float, kaldi::Matrix<float>*)
+main
+__libc_start_main
+_start
+
+WARNING (compute-mfcc-feats[5.4.260~1-b127]:main():compute-mfcc-feats.cc:144) Failed to compute features for utterance theo_2_0
+ERROR (compute-mfcc-feats[5.4.260~1-b127]:ComputeFeatures():feat/feature-common-inl.h:52) The waveform is allowed to get downsampled.New sample Frequency 16000 is larger than waveform original sampling frequency 8000
+
+[ Stack-Trace: ]
+
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::OfflineFeatureTpl<kaldi::MfccComputer>::ComputeFeatures(kaldi::VectorBase<float> const&, float, float, kaldi::Matrix<float>*)
+main
+__libc_start_main
+_start
+
+WARNING (compute-mfcc-feats[5.4.260~1-b127]:main():compute-mfcc-feats.cc:144) Failed to compute features for utterance theo_2_1
+ERROR (compute-mfcc-feats[5.4.260~1-b127]:ComputeFeatures():feat/feature-common-inl.h:52) The waveform is allowed to get downsampled.New sample Frequency 16000 is larger than waveform original sampling frequency 8000
+
+[ Stack-Trace: ]
+
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::OfflineFeatureTpl<kaldi::MfccComputer>::ComputeFeatures(kaldi::VectorBase<float> const&, float, float, kaldi::Matrix<float>*)
+main
+__libc_start_main
+_start
+
+WARNING (compute-mfcc-feats[5.4.260~1-b127]:main():compute-mfcc-feats.cc:144) Failed to compute features for utterance theo_2_2
+ERROR (compute-mfcc-feats[5.4.260~1-b127]:ComputeFeatures():feat/feature-common-inl.h:52) The waveform is allowed to get downsampled.New sample Frequency 16000 is larger than waveform original sampling frequency 8000
+
+[ Stack-Trace: ]
+
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::OfflineFeatureTpl<kaldi::MfccComputer>::ComputeFeatures(kaldi::VectorBase<float> const&, float, float, kaldi::Matrix<float>*)
+main
+__libc_start_main
+_start
+
+WARNING (compute-mfcc-feats[5.4.260~1-b127]:main():compute-mfcc-feats.cc:144) Failed to compute features for utterance theo_2_3
+ERROR (compute-mfcc-feats[5.4.260~1-b127]:ComputeFeatures():feat/feature-common-inl.h:52) The waveform is allowed to get downsampled.New sample Frequency 16000 is larger than waveform original sampling frequency 8000
+
+[ Stack-Trace: ]
+
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::OfflineFeatureTpl<kaldi::MfccComputer>::ComputeFeatures(kaldi::VectorBase<float> const&, float, float, kaldi::Matrix<float>*)
+main
+__libc_start_main
+_start
+
+WARNING (compute-mfcc-feats[5.4.260~1-b127]:main():compute-mfcc-feats.cc:144) Failed to compute features for utterance theo_2_4
+ERROR (compute-mfcc-feats[5.4.260~1-b127]:ComputeFeatures():feat/feature-common-inl.h:52) The waveform is allowed to get downsampled.New sample Frequency 16000 is larger than waveform original sampling frequency 8000
+
+[ Stack-Trace: ]
+
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::OfflineFeatureTpl<kaldi::MfccComputer>::ComputeFeatures(kaldi::VectorBase<float> const&, float, float, kaldi::Matrix<float>*)
+main
+__libc_start_main
+_start
+
+WARNING (compute-mfcc-feats[5.4.260~1-b127]:main():compute-mfcc-feats.cc:144) Failed to compute features for utterance theo_2_5
+ERROR (compute-mfcc-feats[5.4.260~1-b127]:ComputeFeatures():feat/feature-common-inl.h:52) The waveform is allowed to get downsampled.New sample Frequency 16000 is larger than waveform original sampling frequency 8000
+
+[ Stack-Trace: ]
+
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::OfflineFeatureTpl<kaldi::MfccComputer>::ComputeFeatures(kaldi::VectorBase<float> const&, float, float, kaldi::Matrix<float>*)
+main
+__libc_start_main
+_start
+
+WARNING (compute-mfcc-feats[5.4.260~1-b127]:main():compute-mfcc-feats.cc:144) Failed to compute features for utterance theo_2_6
+ERROR (compute-mfcc-feats[5.4.260~1-b127]:ComputeFeatures():feat/feature-common-inl.h:52) The waveform is allowed to get downsampled.New sample Frequency 16000 is larger than waveform original sampling frequency 8000
+
+[ Stack-Trace: ]
+
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::OfflineFeatureTpl<kaldi::MfccComputer>::ComputeFeatures(kaldi::VectorBase<float> const&, float, float, kaldi::Matrix<float>*)
+main
+__libc_start_main
+_start
+
+WARNING (compute-mfcc-feats[5.4.260~1-b127]:main():compute-mfcc-feats.cc:144) Failed to compute features for utterance theo_2_7
+ERROR (compute-mfcc-feats[5.4.260~1-b127]:ComputeFeatures():feat/feature-common-inl.h:52) The waveform is allowed to get downsampled.New sample Frequency 16000 is larger than waveform original sampling frequency 8000
+
+[ Stack-Trace: ]
+
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::OfflineFeatureTpl<kaldi::MfccComputer>::ComputeFeatures(kaldi::VectorBase<float> const&, float, float, kaldi::Matrix<float>*)
+main
+__libc_start_main
+_start
+
+WARNING (compute-mfcc-feats[5.4.260~1-b127]:main():compute-mfcc-feats.cc:144) Failed to compute features for utterance theo_2_8
+ERROR (compute-mfcc-feats[5.4.260~1-b127]:ComputeFeatures():feat/feature-common-inl.h:52) The waveform is allowed to get downsampled.New sample Frequency 16000 is larger than waveform original sampling frequency 8000
+
+[ Stack-Trace: ]
+
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::OfflineFeatureTpl<kaldi::MfccComputer>::ComputeFeatures(kaldi::VectorBase<float> const&, float, float, kaldi::Matrix<float>*)
+main
+__libc_start_main
+_start
+
+WARNING (compute-mfcc-feats[5.4.260~1-b127]:main():compute-mfcc-feats.cc:144) Failed to compute features for utterance theo_2_9
+LOG (compute-mfcc-feats[5.4.260~1-b127]:main():compute-mfcc-feats.cc:176)  Done 0 out of 70 utterances.
+LOG (copy-feats[5.4.260~1-b127]:main():copy-feats.cc:143) Copied 0 feature matrices.
+# Accounting: time=0 threads=1
+# Ended (code 1) at Sun Sep 23 01:39:08 IST 2018, elapsed time 0 seconds
