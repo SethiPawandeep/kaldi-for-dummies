@@ -1,5 +1,5 @@
 # gmm-acc-stats-ali exp/mono/10.mdl "ark,s,cs:apply-cmvn  --utt2spk=ark:data/train/split1/1/utt2spk scp:data/train/split1/1/cmvn.scp scp:data/train/split1/1/feats.scp ark:- | add-deltas  ark:- ark:- |" "ark:gunzip -c exp/mono/ali.1.gz|" exp/mono/10.1.acc 
-# Started at Mon Sep 24 17:53:10 IST 2018
+# Started at Mon Sep 24 22:08:49 IST 2018
 #
 gmm-acc-stats-ali exp/mono/10.mdl 'ark,s,cs:apply-cmvn  --utt2spk=ark:data/train/split1/1/utt2spk scp:data/train/split1/1/cmvn.scp scp:data/train/split1/1/feats.scp ark:- | add-deltas  ark:- ark:- |' 'ark:gunzip -c exp/mono/ali.1.gz|' exp/mono/10.1.acc 
 add-deltas ark:- ark:- 
@@ -10,4 +10,4 @@ LOG (gmm-acc-stats-ali[5.4.260~1-b127]:main():gmm-acc-stats-ali.cc:112) Done 80 
 LOG (gmm-acc-stats-ali[5.4.260~1-b127]:main():gmm-acc-stats-ali.cc:115) Overall avg like per frame (Gaussian only) = -87.6019 over 3014 frames.
 LOG (gmm-acc-stats-ali[5.4.260~1-b127]:main():gmm-acc-stats-ali.cc:123) Written accs.
 # Accounting: time=0 threads=1
-# Ended (code 0) at Mon Sep 24 17:53:10 IST 2018, elapsed time 0 seconds
+# Ended (code 0) at Mon Sep 24 22:08:49 IST 2018, elapsed time 0 seconds

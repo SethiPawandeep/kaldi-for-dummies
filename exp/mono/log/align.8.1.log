@@ -1,5 +1,5 @@
 # gmm-align-compiled --transition-scale=1.0 --acoustic-scale=0.1 --self-loop-scale=0.1 --beam=10 --retry-beam=40 --careful=false "gmm-boost-silence --boost=1.0 1 exp/mono/8.mdl - |" "ark:gunzip -c exp/mono/fsts.1.gz|" "ark,s,cs:apply-cmvn  --utt2spk=ark:data/train/split1/1/utt2spk scp:data/train/split1/1/cmvn.scp scp:data/train/split1/1/feats.scp ark:- | add-deltas  ark:- ark:- |" "ark,t:|gzip -c >exp/mono/ali.1.gz" 
-# Started at Mon Sep 24 17:53:09 IST 2018
+# Started at Mon Sep 24 22:08:48 IST 2018
 #
 gmm-align-compiled --transition-scale=1.0 --acoustic-scale=0.1 --self-loop-scale=0.1 --beam=10 --retry-beam=40 --careful=false 'gmm-boost-silence --boost=1.0 1 exp/mono/8.mdl - |' 'ark:gunzip -c exp/mono/fsts.1.gz|' 'ark,s,cs:apply-cmvn  --utt2spk=ark:data/train/split1/1/utt2spk scp:data/train/split1/1/cmvn.scp scp:data/train/split1/1/feats.scp ark:- | add-deltas  ark:- ark:- |' 'ark,t:|gzip -c >exp/mono/ali.1.gz' 
 gmm-boost-silence --boost=1.0 1 exp/mono/8.mdl - 
@@ -92,5 +92,5 @@ LOG (gmm-align-compiled[5.4.260~1-b127]:main():gmm-align-compiled.cc:127) theo_4
 LOG (gmm-align-compiled[5.4.260~1-b127]:main():gmm-align-compiled.cc:135) Overall log-likelihood per frame is -89.0511 over 3014 frames.
 LOG (gmm-align-compiled[5.4.260~1-b127]:main():gmm-align-compiled.cc:137) Retried 0 out of 80 utterances.
 LOG (gmm-align-compiled[5.4.260~1-b127]:main():gmm-align-compiled.cc:139) Done 80, errors on 0
-# Accounting: time=1 threads=1
-# Ended (code 0) at Mon Sep 24 17:53:10 IST 2018, elapsed time 1 seconds
+# Accounting: time=0 threads=1
+# Ended (code 0) at Mon Sep 24 22:08:48 IST 2018, elapsed time 0 seconds

@@ -1,5 +1,5 @@
 # gmm-est --write-occs=exp/mono/3.occs --mix-up=101 --power=0.25 exp/mono/2.mdl "gmm-sum-accs - exp/mono/2.*.acc|" exp/mono/3.mdl 
-# Started at Mon Sep 24 17:53:07 IST 2018
+# Started at Mon Sep 24 22:08:46 IST 2018
 #
 gmm-est --write-occs=exp/mono/3.occs --mix-up=101 --power=0.25 exp/mono/2.mdl 'gmm-sum-accs - exp/mono/2.*.acc|' exp/mono/3.mdl 
 gmm-sum-accs - exp/mono/2.1.acc 
@@ -21,4 +21,4 @@ LOG (gmm-est[5.4.260~1-b127]:main():gmm-est.cc:116) GMM update: Overall avg like
 LOG (gmm-est[5.4.260~1-b127]:SplitByCount():am-diag-gmm.cc:116) Split 70 states with target = 101, power = 0.25, perturb_factor = 0.01 and min_count = 20, split #Gauss from 70 to 101
 LOG (gmm-est[5.4.260~1-b127]:main():gmm-est.cc:146) Written model to exp/mono/3.mdl
 # Accounting: time=0 threads=1
-# Ended (code 0) at Mon Sep 24 17:53:07 IST 2018, elapsed time 0 seconds
+# Ended (code 0) at Mon Sep 24 22:08:46 IST 2018, elapsed time 0 seconds
