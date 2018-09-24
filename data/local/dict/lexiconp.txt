@@ -1,0 +1,14 @@
+!SIL 1.0	sil
+<UNK> 1.0	spn
+eight 1.0	ey t
+five 1.0	f ay v
+four 1.0	f ao r
+nine 1.0	n ay n
+one 1.0	hh w ah n
+one 1.0	w ah n
+seven 1.0	s eh v ah n
+six 1.0	s ih k s
+three 1.0	th r iy
+two 1.0	t uw
+zero 1.0	z ih r ow
+zero 1.0	z iy r ow
