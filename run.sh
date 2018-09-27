@@ -71,6 +71,7 @@ if [ -z $loc ]; then
 	fi
 fi
 local=data/local
+mkdir $local/tmp
 ngram-count -order $lm_order -write-vocab $local/tmp/vocab-full.txt -wbdiscount -text $local/corpus.txt -lm $local/tmp/lm.arpa
 
 echo
@@ -78,7 +79,7 @@ echo "===== MAKING G.fst ====="
 echo
 
 lang=data/lang
-cat $local/tmp/lm.arpa | arpa2fst - | fstprint | utils/eps2disambig.pl | utils/s2eps.pl | fstcompile --isymbols=$lang/words.txt --osymbols=$lang/words.txt --keep_isymbols=false --keep_osymbols=false | fstrmepsilon | fstarcsort --sort_type=ilabel > $lang/G.fst
+arpa2fst --disambig-symbol=#0 --read-symbol-table=$lang/words.txt $local/tmp/lm.arpa > $lang/G.fst
 
 echo
 echo "===== MONO TRAINING ====="
@@ -89,6 +90,11 @@ steps/train_mono.sh --nj $nj --cmd "$train_cmd" data/train data/lang exp/mono ||
 echo
 echo "===== MONO DECODING ====="
 echo
+
+echo
+echo "HERE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+echo
+echo "$decode_cmd"
 
 utils/mkgraph.sh --mono data/lang exp/mono exp/mono/graph || exit 1
 steps/decode.sh --config conf/decode.config --nj $nj --cmd "$decode_cmd" exp/mono/graph data/test exp/mono/decode

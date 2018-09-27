@@ -1,5 +1,5 @@
 # gmm-est --write-occs=exp/mono/14.occs --mix-up=442 --power=0.25 exp/mono/13.mdl "gmm-sum-accs - exp/mono/13.*.acc|" exp/mono/14.mdl 
-# Started at Mon Sep 24 22:08:50 IST 2018
+# Started at Thu Sep 27 23:01:13 IST 2018
 #
 gmm-est --write-occs=exp/mono/14.occs --mix-up=442 --power=0.25 exp/mono/13.mdl 'gmm-sum-accs - exp/mono/13.*.acc|' exp/mono/14.mdl 
 gmm-sum-accs - exp/mono/13.1.acc 
@@ -22,4 +22,4 @@ WARNING (gmm-est[5.4.260~1-b127]:GetSplitTargets():model-common.cc:134) Could no
 LOG (gmm-est[5.4.260~1-b127]:SplitByCount():am-diag-gmm.cc:116) Split 70 states with target = 442, power = 0.25, perturb_factor = 0.01 and min_count = 20, split #Gauss from 135 to 135
 LOG (gmm-est[5.4.260~1-b127]:main():gmm-est.cc:146) Written model to exp/mono/14.mdl
 # Accounting: time=0 threads=1
-# Ended (code 0) at Mon Sep 24 22:08:50 IST 2018, elapsed time 0 seconds
+# Ended (code 0) at Thu Sep 27 23:01:13 IST 2018, elapsed time 0 seconds
