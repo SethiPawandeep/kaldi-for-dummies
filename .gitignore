@@ -1,5 +1,9 @@
-*.wav
-*.log
+**/data
+**/exp
+**/mfcc
+mfcc/
+data/
+exp/
 utt2spk
 spk2gender
 wav.scp
