@@ -1,8 +1,0 @@
-jackson_0 /home/pd/Minor/kaldi/egs/digits/mfcc/cmvn_train.ark:10
-jackson_1 /home/pd/Minor/kaldi/egs/digits/mfcc/cmvn_train.ark:259
-jackson_2 /home/pd/Minor/kaldi/egs/digits/mfcc/cmvn_train.ark:508
-nicolas_0 /home/pd/Minor/kaldi/egs/digits/mfcc/cmvn_train.ark:757
-nicolas_1 /home/pd/Minor/kaldi/egs/digits/mfcc/cmvn_train.ark:1006
-theo_0 /home/pd/Minor/kaldi/egs/digits/mfcc/cmvn_train.ark:1252
-theo_3 /home/pd/Minor/kaldi/egs/digits/mfcc/cmvn_train.ark:1498
-theo_4 /home/pd/Minor/kaldi/egs/digits/mfcc/cmvn_train.ark:1744

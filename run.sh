@@ -32,11 +32,11 @@ mfccdir=mfcc
 # script for checking if prepared data is all right
 # utils/fix_data_dir.sh data/train 
 # tool for data sorting if something goes wrong above
-steps/make_mfcc.sh --nj $nj --cmd "$train_cmd" data/train exp/make_mfcc/train $mfccdir
-steps/make_mfcc.sh --nj $nj --cmd "$train_cmd" data/test exp/make_mfcc/test $mfccdir
+steps/make_gfcc.sh --nj $nj --cmd "$train_cmd" data/train exp/make_gfcc/train $mfccdir
+steps/make_gfcc.sh --nj $nj --cmd "$train_cmd" data/test exp/make_gfcc/test $mfccdir
 # Making cmvn.scp files
-steps/compute_cmvn_stats.sh data/train exp/make_mfcc/train $mfccdir
-steps/compute_cmvn_stats.sh data/test exp/make_mfcc/test $mfccdir
+steps/compute_cmvn_stats.sh data/train exp/make_gfcc/train $mfccdir
+steps/compute_cmvn_stats.sh data/test exp/make_gfcc/test $mfccdir
 
 echo
 echo "===== PREPARING LANGUAGE DATA ====="
