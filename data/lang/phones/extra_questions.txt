@@ -1,9 +1,0 @@
-ah_B ao_B ay_B eh_B ey_B f_B hh_B ih_B iy_B k_B n_B ow_B r_B s_B t_B th_B uw_B w_B v_B z_B 
-ah_E ao_E ay_E eh_E ey_E f_E hh_E ih_E iy_E k_E n_E ow_E r_E s_E t_E th_E uw_E w_E v_E z_E 
-ah_I ao_I ay_I eh_I ey_I f_I hh_I ih_I iy_I k_I n_I ow_I r_I s_I t_I th_I uw_I w_I v_I z_I 
-ah_S ao_S ay_S eh_S ey_S f_S hh_S ih_S iy_S k_S n_S ow_S r_S s_S t_S th_S uw_S w_S v_S z_S 
-sil spn 
-sil_B spn_B 
-sil_E spn_E 
-sil_I spn_I 
-sil_S spn_S 
