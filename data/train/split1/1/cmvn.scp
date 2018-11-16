@@ -1,8 +1,12 @@
 jackson_0 /media/pd/files2/Minor/kaldi/egs/digits/mfcc/cmvn_train.ark:10
 jackson_1 /media/pd/files2/Minor/kaldi/egs/digits/mfcc/cmvn_train.ark:259
 jackson_2 /media/pd/files2/Minor/kaldi/egs/digits/mfcc/cmvn_train.ark:508
-nicolas_0 /media/pd/files2/Minor/kaldi/egs/digits/mfcc/cmvn_train.ark:757
-nicolas_1 /media/pd/files2/Minor/kaldi/egs/digits/mfcc/cmvn_train.ark:1006
-theo_0 /media/pd/files2/Minor/kaldi/egs/digits/mfcc/cmvn_train.ark:1252
-theo_3 /media/pd/files2/Minor/kaldi/egs/digits/mfcc/cmvn_train.ark:1498
-theo_4 /media/pd/files2/Minor/kaldi/egs/digits/mfcc/cmvn_train.ark:1744
+jackson_3 /media/pd/files2/Minor/kaldi/egs/digits/mfcc/cmvn_train.ark:757
+nicolas_0 /media/pd/files2/Minor/kaldi/egs/digits/mfcc/cmvn_train.ark:1006
+nicolas_1 /media/pd/files2/Minor/kaldi/egs/digits/mfcc/cmvn_train.ark:1255
+nicolas_3 /media/pd/files2/Minor/kaldi/egs/digits/mfcc/cmvn_train.ark:1504
+nicolas_4 /media/pd/files2/Minor/kaldi/egs/digits/mfcc/cmvn_train.ark:1753
+theo_0 /media/pd/files2/Minor/kaldi/egs/digits/mfcc/cmvn_train.ark:1999
+theo_2 /media/pd/files2/Minor/kaldi/egs/digits/mfcc/cmvn_train.ark:2245
+theo_3 /media/pd/files2/Minor/kaldi/egs/digits/mfcc/cmvn_train.ark:2491
+theo_4 /media/pd/files2/Minor/kaldi/egs/digits/mfcc/cmvn_train.ark:2737

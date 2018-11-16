@@ -1,7 +1,3 @@
-jackson_3 /media/pd/files2/Minor/kaldi/egs/digits/mfcc/cmvn_test.ark:10
-jackson_4 /media/pd/files2/Minor/kaldi/egs/digits/mfcc/cmvn_test.ark:259
-nicolas_2 /media/pd/files2/Minor/kaldi/egs/digits/mfcc/cmvn_test.ark:508
-nicolas_3 /media/pd/files2/Minor/kaldi/egs/digits/mfcc/cmvn_test.ark:757
-nicolas_4 /media/pd/files2/Minor/kaldi/egs/digits/mfcc/cmvn_test.ark:1006
-theo_1 /media/pd/files2/Minor/kaldi/egs/digits/mfcc/cmvn_test.ark:1252
-theo_2 /media/pd/files2/Minor/kaldi/egs/digits/mfcc/cmvn_test.ark:1498
+jackson_4 /media/pd/files2/Minor/kaldi/egs/digits/mfcc/cmvn_test.ark:10
+nicolas_2 /media/pd/files2/Minor/kaldi/egs/digits/mfcc/cmvn_test.ark:259
+theo_1 /media/pd/files2/Minor/kaldi/egs/digits/mfcc/cmvn_test.ark:505
