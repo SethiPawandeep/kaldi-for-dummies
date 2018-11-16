@@ -7,7 +7,8 @@ export DATA_ROOT="$KALDI_ROOT/egs/digits/digits_audio"
 # Variable that stores path to MITLM library
 # export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$(pwd)/tools/mitlm-svn/lib
 # Enable SRILM
-. $KALDI_ROOT/tools/env.sh
+# . $KALDI_ROOT/tools/env.sh
+. /home/pd/Minor/kaldi/tools/env.sh
 # Variable needed for proper data sorting
 export LC_ALL=C
 

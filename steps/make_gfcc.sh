@@ -8,7 +8,7 @@
 # Begin configuration section.
 nj=4
 cmd=run.pl
-gfcc_config=conf/mfcc.conf
+gfcc_config=conf/gfcc.conf
 compress=true
 write_utt2num_frames=false  # if true writes utt2num_frames
 # End configuration section.
