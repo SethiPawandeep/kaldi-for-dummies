@@ -8,7 +8,7 @@
 # Begin configuration section.
 nj=4
 cmd=run.pl
-gfcc_config=conf/gfcc.conf
+gfcc_config=conf/mfcc.conf
 compress=true
 write_utt2num_frames=false  # if true writes utt2num_frames
 # End configuration section.
@@ -23,7 +23,7 @@ if [ $# -lt 1 ] || [ $# -gt 3 ]; then
    echo "e.g.: $0 data/train exp/make_gfcc/train gfcc"
    echo "Note: <log-dir> defaults to <data-dir>/log, and <gfccdir> defaults to <data-dir>/data"
    echo "Options: "
-   echo "  --gfcc-config <config-file>                      # config passed to compute-gfcc-feats "
+   echo "  --gfcc-config <config-file>                      # config passed to compute-gtf-feats "
    echo "  --nj <nj>                                        # number of parallel jobs"
    echo "  --cmd (utils/run.pl|utils/queue.pl <queue opts>) # how to run jobs."
    echo "  --write-utt2num-frames <true|false>     # If true, write utt2num_frames file."

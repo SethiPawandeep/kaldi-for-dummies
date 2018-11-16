@@ -2,6 +2,7 @@
 **/exp
 **/mfcc
 mfcc/
+gfcc/
 data/
 exp/
 utt2spk
